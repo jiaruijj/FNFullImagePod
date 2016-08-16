@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FNFullImagePod_Example' do
+  pod 'FNFullImagePod', :path => '../'
+
+  target 'FNFullImagePod_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

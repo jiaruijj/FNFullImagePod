@@ -1,0 +1,28 @@
+PODS:
+  - FBSnapshotTestCase (2.1.2):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.2)
+  - FBSnapshotTestCase/Core (2.1.2)
+  - FBSnapshotTestCase/SwiftSupport (2.1.2):
+    - FBSnapshotTestCase/Core
+  - FNFullImagePod (0.1.0):
+    - SDWebImage
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - FNFullImagePod (from `../`)
+
+EXTERNAL SOURCES:
+  FNFullImagePod:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 918c55861356ee83aee7843d759f55a18ff6982b
+  FNFullImagePod: c2cf10fad12b3a72474b03781595418fbba3493d
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+
+PODFILE CHECKSUM: 375a2aecc6877363d5b340c377b96ddd7e093bb2
+
+COCOAPODS: 1.0.1

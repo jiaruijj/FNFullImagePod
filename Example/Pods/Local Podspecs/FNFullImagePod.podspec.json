@@ -1,0 +1,28 @@
+{
+  "name": "FNFullImagePod",
+  "version": "0.1.0",
+  "summary": "A short description of FNFullImagePod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jiaruijj/FNFullImagePod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "JR": "jiaruijj@163.com"
+  },
+  "source": {
+    "git": "https://github.com/jiaruijj/FNFullImagePod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FNFullImagePod/Classes/**/*.{h,m}",
+  "resources": "FNFullImagePod/Classes/**/*.bundle",
+  "dependencies": {
+    "SDWebImage": [
+
+    ]
+  }
+}
